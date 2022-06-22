@@ -1,0 +1,118 @@
+.bg-blue {
+    background-color: #2d4059;
+}
+
+.bg-grey {
+    background-color: #e5e5e5;
+}
+
+.bg-red {
+    background-color: #ea5455;
+}
+
+.txt-blue {
+    color: #2d4059;
+}
+
+.txt-grey {
+    color: #e5e5e5;
+}
+
+.txt-red {
+    color: #ea5455;
+}
+
+footer {
+    line-height: 17px;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+footer .container {
+    max-width: 1114px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    color: #e5e5e5;
+
+}
+
+footer h3 {
+    font-size: large;
+    margin-right: 10px;
+
+
+}
+
+footer p {
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+footer i {
+    border: 5px solid;
+    border-radius: 50%;
+    border-color: #e5e5e5;
+    font-size: 1.2rem;
+    margin-right: 20px;
+
+
+
+}
+
+footer .flex {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    font-weight: 700;
+    padding-right: 10px;
+
+}
+
+footer .bottom {
+    color: black;
+
+}
+
+footer .bottom h3 {
+    margin-top: 20px;
+    ;
+}
+
+footer .mentions h3 {
+    text-align: center;
+    color: #e5e5e5;
+  
+}
+
+footer .mentions_legales{
+    padding-bottom: 10px;
+    font-size:large;
+    text-align: center;
+    
+}
+
+    .info {
+        width: 200px;
+
+    }
+
+    .info p {
+        margin-top: 20px;
+    }
+
+    footer a {
+        text-decoration: none;
+    }
+
+    .bottom a {
+        color: black;
+    }
+
+    .mentions_legales a {
+        color: #e5e5e5;
+    }
+    

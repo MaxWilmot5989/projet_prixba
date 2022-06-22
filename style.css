@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 @charset "UTF-8";
+=======
+>>>>>>> develop
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -160,6 +163,244 @@ i {
   color: #ea5455;
   margin-left: 3px;
   font-size: 11px;
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-blue {
+  background-color: #2d4059;
+}
+
+.bg-grey {
+  background-color: #e5e5e5;
+}
+
+.bg-red {
+  background-color: #ea5455;
+}
+
+.txt-blue {
+  color: #2d4059;
+}
+
+.txt-grey {
+  color: #e5e5e5;
+}
+
+.txt-red {
+  color: #ea5455;
+}
+
+footer {
+  line-height: 17px;
+  font-family: "Montserrat", sans-serif;
+}
+
+footer .container {
+  max-width: 1114px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+  color: #e5e5e5;
+}
+
+footer h3 {
+  font-size: large;
+  margin-right: 10px;
+}
+
+footer p {
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+footer i {
+  border: 5px solid;
+  border-radius: 50%;
+  border-color: #e5e5e5;
+  font-size: 1.2rem;
+  margin-right: 20px;
+}
+
+footer .flex {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  font-weight: 700;
+  padding-right: 10px;
+}
+
+footer .bottom {
+  color: black;
+}
+
+footer .bottom h3 {
+  margin-top: 20px;
+}
+
+footer .mentions h3 {
+  text-align: center;
+  color: #e5e5e5;
+}
+
+footer .mentions_legales {
+  padding-bottom: 10px;
+  font-size: large;
+  text-align: center;
+}
+
+.info {
+  width: 200px;
+}
+
+.info p {
+  margin-top: 20px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.bottom a {
+  color: black;
+}
+
+.mentions_legales a {
+  color: #e5e5e5;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 17px;
+}
+
+.bg-blue {
+  background-color: #2D4059;
+}
+
+.bg-grey {
+  background-color: #e5e5e5;
+}
+
+.bg-red {
+  background-color: #ea5455;
+}
+
+.text-blue {
+  color: #2D4059;
+}
+
+.text-grey {
+  color: #e5e5e5;
+}
+
+.text-red {
+  color: #ea5455;
+}
+
+.container {
+  max-width: 1114px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+h2 a.subtitle {
+  font-size: 15px;
+}
+
+.home-section {
+  margin: 80px 0;
+}
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+}
+
+.diapo {
+  width: 263px;
+  height: 261px;
+  box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.1);
+  padding: 23px;
+}
+
+.diapo img {
+  max-height: 186px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.diapo .name-product {
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.diapo .price-product {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.diapo .price-product .in-stock {
+  color: #42CC58;
+  float: right;
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  row-gap: 20px;
+}
+
+.categorie-thumb {
+  width: 168px;
+  height: 163px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+
+.categorie-thumb i {
+  margin-bottom: 20px;
+}
+
+.choices {
+  display: flex;
+  justify-content: space-between;
+}
+
+.choice-item a {
+  text-align: center;
+  display: block;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.choice-item img {
+  width: 343px;
+  height: 232px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.choice-item p {
+  margin-top: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
