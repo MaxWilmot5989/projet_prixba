@@ -13,67 +13,40 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css
     ">
 </head>
-
 <body>
-
     <header>
-
-        <div class="header-container">
-                <div class="logo"> 
-                    <img src="images/logo/logo_color.png" alt="Logo" > 
-                    <h1 >PrixBa</h1> 
-                </div>
-
-                <div class="sidbar">
-                    <h2>Tous vos besoins á petits prix dans la métropole Lilloise</h2>
-
-                        <div class="div2"> 
-                            
-                                <div> <span>1</span> Choix et commande des articles </div>  
-                                <div> <span>2</span> Rerait des articles</div>
-                                <div> <span>3</span> Paiment des articles </div> 
-                                
-                            
-                        </div> 
-                </div>
+        <div class="header-container bg-grey">
+            <h1><img src="images/logo/logo_color.png" alt="Logo" >PrixBa</h1> 
+            <div class="sidebar">
+                <div class="slogan">Tous vos besoins à petits prix dans la métropole Lilloise</div>
+                <div class="div2"> 
+                    <div><span class="bg-red">1</span> Choix et commande des articles </div>  
+                    <div><span class="bg-red">2</span> Retrait des articles</div>
+                    <div><span class="bg-red">3</span> Paiement des articles </div>         
+                </div> 
+            </div>
         </div>
 
-        <div class="navbar">
-                <select name="Catégorie" id="catégorie">
-                    <option value="Tout">Catégorie</option>
-                    <option value="Tout">Tout</option>
-                    <option value="Tout">Bricolage</option>
-                    <option value="Tout">Outillage</option>
-                </select>
-                <input type="text" class="search">
-                <input type="submit" name="Rechercher" value="Rechercher" class="Rechercher">
-                <div class="nav"> 
-                    <nav> 
-                    
-                        <a href="#"><il>Catalogue</il></a>
-                        <a href="#"><il>Questions fréquentes</il></a>
-                        <a href=""><il>Connexion </il></a>
-                        <i class="fa-solid fa-cart-shopping fa-2x"></i><span class="nb-article">2</span>
-                    
-                    </nav>
+        <div class="bg-blue">
+            <div class="container navbar ">
+                <form action="">
+                    <select name="categorie" id="categorie" class="bg-grey">
+                        <option value="cat" selected>Catégorie</option>
+                        <option value="tout">Tout</option>
+                        <option value="bri">Bricolage</option>
+                        <option value="out">Outillage</option>
+                    </select>
+                    <input type="text" class="search">
+                    <input type="submit" name="Rechercher" value="Rechercher" class="rechercher bg-red">
+                </form>
+                <nav class="nav"> 
+                    <a href="#">Catalogue</a>
+                    <a href="#">Questions fréquentes</a>
+                    <a href="#">Connexion</a>
+                    <a href="#"><i class="fa-solid fa-cart-shopping fa-2x"></i><span class="badge-article text-red">2</span></a>
+                </nav>
             </div>
-
-
-
-
-        </div>       
-
-
-
-
-
-
-
-
-
-
-
-
+        </div> 
 
     </header>    
     <main class="container">
@@ -121,18 +94,18 @@
         <section class="home-section">
             <h2 class="text-red">Découvrez nos offres par catégorie <a href="#" class="subtitle text-blue">Voir tout</a></h2>
             <div class="categories">
-                <div class="categorie-thumb bg-blue"><p><i class="fa-solid fa-screwdriver-wrench fa-3x"></i></p><p>Bricolage</p></div>
-                <div class="categorie-thumb bg-blue"><p><i class="fa-regular fa-lightbulb fa-3x"></i></p><p>Multimedia</p></div>
-                <div class="categorie-thumb bg-blue"><p><i class="fa-solid fa-utensils fa-3x"></i></p><p>Cuisine</p></div>
-                <div class="categorie-thumb bg-blue"><p><i class="fa-regular fa-lightbulb fa-3x"></i></p><p>Multimedia</p></div>
-                <div class="categorie-thumb bg-blue"><p><i class="fa-regular fa-lightbulb fa-3x"></i></p><p>Multimedia</p></div>
-                <div class="categorie-thumb bg-blue"><p><i class="fa-regular fa-lightbulb fa-3x"></i></p><p>Multimedia</p></div>
-                <div class="categorie-thumb bg-blue"><p><i class="fa-regular fa-lightbulb fa-3x"></i></p><p>Multimedia</p></div>
-                <div class="categorie-thumb bg-blue"><p><i class="fa-regular fa-lightbulb fa-3x"></i></p><p>Multimedia</p></div>
-                <div class="categorie-thumb bg-blue"><p><i class="fa-regular fa-lightbulb fa-3x"></i></p><p>Multimedia</p></div>
-                <div class="categorie-thumb bg-blue"><p><i class="fa-regular fa-lightbulb fa-3x"></i></p><p>Multimedia</p></div>
-                <div class="categorie-thumb bg-blue"><p><i class="fa-regular fa-lightbulb fa-3x"></i></p><p>Multimedia</p></div>
-                <div class="categorie-thumb bg-blue"><p><i class="fa-regular fa-lightbulb fa-3x"></i></p><p>Multimedia</p></div>
+                <div class="categorie-thumb bg-blue text-grey"><a href="#"><p><i class="fa-solid fa-screwdriver-wrench fa-3x"></i></p><p>Bricolage</p></a></div>
+                <div class="categorie-thumb bg-blue text-grey"><a href="#"><p><i class="fa-regular fa-lightbulb fa-3x"></i></p><p>Multimedia</p></a></div>
+                <div class="categorie-thumb bg-blue text-grey"><a href="#"><p><i class="fa-solid fa-utensils fa-3x"></i></p><p>Cuisine</p></a></div>
+                <div class="categorie-thumb bg-blue text-grey"><a href="#"><p><i class="fa-regular fa-lightbulb fa-3x"></i></p><p>Multimedia</p></a></div>
+                <div class="categorie-thumb bg-blue text-grey"><a href="#"><p><i class="fa-regular fa-lightbulb fa-3x"></i></p><p>Multimedia</p></a></div>
+                <div class="categorie-thumb bg-blue text-grey"><a href="#"><p><i class="fa-regular fa-lightbulb fa-3x"></i></p><p>Multimedia</p></a></div>
+                <div class="categorie-thumb bg-blue text-grey"><a href="#"><p><i class="fa-regular fa-lightbulb fa-3x"></i></p><p>Multimedia</p></a></div>
+                <div class="categorie-thumb bg-blue text-grey"><a href="#"><p><i class="fa-regular fa-lightbulb fa-3x"></i></p><p>Multimedia</p></a></div>
+                <div class="categorie-thumb bg-blue text-grey"><a href="#"><p><i class="fa-regular fa-lightbulb fa-3x"></i></p><p>Multimedia</p></a></div>
+                <div class="categorie-thumb bg-blue text-grey"><a href="#"><p><i class="fa-regular fa-lightbulb fa-3x"></i></p><p>Multimedia</p></a></div>
+                <div class="categorie-thumb bg-blue text-grey"><a href="#"><p><i class="fa-regular fa-lightbulb fa-3x"></i></p><p>Multimedia</p></a></div>
+                <div class="categorie-thumb bg-blue text-grey"><a href="#"><p><i class="fa-regular fa-lightbulb fa-3x"></i></p><p>Multimedia</p></a></div>
             </div>
         </section>
         <section class="home-section">
