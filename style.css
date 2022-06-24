@@ -405,4 +405,102 @@ h2 a.subtitle {
   margin-top: 20px;
 }
 
+@media screen and (max-width: 1100px) {
+  .div2 {
+    display: none;
+  }
+
+  .sidebar {
+    margin-left: 15px;
+  }
+
+  .slogan {
+    line-height: 1.05;
+  }
+
+  .navbar form {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .nav a {
+    width: 40%;
+    margin: 15px;
+    display: block;
+  }
+
+  .nav a:nth-of-type(even) {
+    text-align: right;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+
+  .diapo:nth-child(2), .diapo:nth-child(3), .diapo:nth-child(4) {
+    display: none;
+  }
+
+  .slider {
+    justify-content: center;
+  }
+
+  h2 {
+    line-height: 1.1;
+  }
+
+  .categories {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    margin: 0 auto;
+  }
+
+  .choices {
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .choice-item {
+    margin-bottom: 40px;
+  }
+
+  footer .container {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    padding-bottom: 15px;
+  }
+
+  footer .flex {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .flex i {
+    margin: 10px 0;
+  }
+
+  .info p {
+    margin-top: 0;
+  }
+
+  footer h3 {
+    margin-right: 0;
+  }
+
+  .bottom {
+    text-align: center;
+  }
+
+  .mentions_legales {
+    padding: 10px;
+    font-size: 0.1rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
